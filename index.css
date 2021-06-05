@@ -1,10 +1,15 @@
 body {
   background-color: rgb(89, 179, 231);
-  margin: 0px;
 }
 
-#title {
-  font-size: 4rem;
-  color: white;
+.btn {
   cursor: pointer;
+}
+#title {
+  color: #34495e;
+  transition: color 0.5s ease-in-out;
+}
+
+.clicked {
+  color: #7f8c8d;
 }
